@@ -15,4 +15,44 @@ marks = {
 
 # print(marks.get("Sarfraz"))
 
-print(marks.__len__())
+# print(marks.__len__())
+
+
+
+# words = {
+#     "cat":"Billi",
+#     "dog":"Kutta",
+#     "apple":"seb",
+#     "elephant":"Hanthi"
+# }
+
+
+# word = input("Enter the work you want to translate in hindi :")
+
+# print(words[word])
+
+
+d = {}
+
+name = input("Enter friend's name: ")
+lang = input("Enter language's name: ")
+
+d.update({name:lang})
+
+
+name = input("Enter friend's name: ")
+lang = input("Enter language's name: ")
+
+d.update({name:lang})
+
+name = input("Enter friend's name: ")
+lang = input("Enter language's name: ")
+
+d.update({name:lang})
+
+name = input("Enter friend's name: ")
+lang = input("Enter language's name: ")
+
+d.update({name:lang})
+
+print(d)

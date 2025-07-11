@@ -11,9 +11,42 @@ e = set()
 # print(r)
 
 
-s1 = {1,4,7,8,12}
-s2 = {3,8,12,54}
+# s1 = {1,4,7,8,12}
+# s2 = {3,8,12,54}
+# s3 = {4,7}
 
-print(s1.union(s2))
-print(s1.intersection(s2))
+# # print(s1.union(s2))
+# # print(s1.intersection(s2))
 
+
+# print(s3.issubset(s1))
+
+# s = set()
+
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+# n1 = input("Enter number 1 : ")
+# s.add(int(n1))
+
+# print(s)
+
+
+s = set()
+s.add(12)
+s.add("12")
+
+print(s)
